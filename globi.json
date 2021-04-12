@@ -1,0 +1,74 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "interactions.tsv",
+    "dcterms:bibliographicCitation" : "Olito, Colin; Fox, Jeremy W. (2015), Data from: Species traits and abundances predict metrics of plant–pollinator network structure, but not pairwise interactions, Dryad, Dataset, https://doi.org/10.5061/dryad.7st32",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002623",
+    "interactionTypeName": "hasFlowersVisitedBy",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sample",
+        "titles" : "sample",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceFamilyName",
+        "titles" : "pltFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceGenusName",
+        "titles" : "pltGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "plant",
+        "datatype" : "string"
+      }, {
+        "name" : "targetOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetGenusName",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Sex",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "jdate",
+        "titles" : "jdate",
+        "datatype" : "string"
+      }, {
+        "name" : "observationDateTime",
+        "titles" : "caldate",
+        "datatype" : "string"
+      }, {
+        "name" : "tsect",
+        "titles" : "tsect",
+        "datatype" : "string"
+      }, {
+        "name" : "meter",
+        "titles" : "meter",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
