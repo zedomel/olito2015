@@ -45,11 +45,11 @@
         "titles" : "Genus",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonName",
+        "name" : "targetSpeciesName",
         "titles" : "Species",
         "datatype" : "string"
       }, {
-        "name" : "Sex",
+        "name" : "targetSexName",
         "titles" : "Sex",
         "datatype" : "string"
       }, {
