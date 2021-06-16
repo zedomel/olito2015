@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/olito2015.svg)](https://travis-ci.com/olito2015) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:olito2015)](http://globalbioticinteractions.org/?accordingTo=globi:olito2015)
+[![Build Status](https://travis-ci.com/zedomel/olito2015.svg)](https://travis-ci.com/zedomel/olito2015) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:zedomel/olito2015)](http://globalbioticinteractions.org/?accordingTo=globi:zedomel/olito2015)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
